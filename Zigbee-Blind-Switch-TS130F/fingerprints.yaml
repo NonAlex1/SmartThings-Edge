@@ -1,0 +1,6 @@
+zigbeeManufacturer:
+   - id: "TS130F"
+     deviceLabel: Curtain Switch
+     manufacturer: _TZ3000_8kzqqzu4
+     model: TS130F
+     deviceProfileName: TS130F

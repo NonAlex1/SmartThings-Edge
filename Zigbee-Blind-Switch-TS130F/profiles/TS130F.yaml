@@ -1,0 +1,44 @@
+name: "TS130F"
+components:
+  - id: main
+    capabilities:
+      - id: configuration
+        version: 1
+      - id: windowShade
+        version: 1
+      - id: windowShadeLevel
+        version: 1
+      - id: windowShadePreset
+        version: 1
+    categories:
+      - name: Blind
+preferences:
+  - preferenceId: presetPosition
+    explicit: true
+  - name: "reverse"
+    title: "Reverse motor operation"
+    preferenceType: enumeration
+    definition:
+      options:
+        0 : "Normal"
+        1 : "Reverse"
+      default: "0"
+  - name: "lightLevel"
+    title: "LED light level"
+    required: false
+    preferenceType: enumeration
+    definition:
+      options:
+        0 : "OFF"
+        1 : "LOW"
+        2 : "HIGH"
+      default: "2"
+  - name: "calibration"
+    title: "Calibration"
+    required: false
+    preferenceType: enumeration
+    definition:
+      options:
+        0 : "Calibration"
+        1 : "Normal Operation"
+      default: "0"

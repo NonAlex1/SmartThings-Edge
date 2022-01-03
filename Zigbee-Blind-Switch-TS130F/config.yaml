@@ -1,0 +1,7 @@
+name: 'Zigbee Blind Switch TS130F'
+
+packageKey: 'zigbee-blind-switch-ts130f'
+
+permissions:
+
+  zigbee: {}
