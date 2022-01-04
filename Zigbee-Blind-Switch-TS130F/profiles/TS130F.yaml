@@ -29,9 +29,9 @@ preferences:
     preferenceType: enumeration
     definition:
       options:
-        0 : "OFF"
+        0 : "HIGH"
         1 : "LOW"
-        2 : "HIGH"
+        2 : "OFF"
       default: "2"
   - name: "calibration"
     title: "Calibration"
