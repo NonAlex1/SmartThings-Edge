@@ -12,7 +12,7 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
--------- Author NonAlex (Jan 2022) based on Xiaomi blind driver by veonua
+-------- Author NonAlex (Jan 2022) based on Xiaomi blind driver by Andrew Me (veonua)
 
 local zcl_clusters = require "st.zigbee.zcl.clusters"
 local capabilities = require "st.capabilities"
@@ -89,10 +89,6 @@ function set_window_shade_level(driver, device, number)
     log.info("window shade level is already set to ", number)
   return end
 
-  local sign = 0
-  local mantissa, exponent = math.frexp(number)
-  mantissa = mantissa * 2 - 1
-  exponent = exponent - 1
   log.info("window shade level will be set to", number)
   --local data = data_types.SinglePrecisionFloat(sign, exponent, mantissa)
   local data = data_types.Uint8(number)

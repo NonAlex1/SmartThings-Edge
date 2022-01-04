@@ -1,6 +1,11 @@
 zigbeeManufacturer:
-   - id: "TS130F"
+   - id: "Loratap.TS130F"
      deviceLabel: Curtain Switch
      manufacturer: _TZ3000_8kzqqzu4
+     model: TS130F
+     deviceProfileName: TS130F
+   - id: "Zemismart.TS130F"
+     deviceLabel: Curtain Switch
+     manufacturer: _TZ3000_dph3rpss
      model: TS130F
      deviceProfileName: TS130F
